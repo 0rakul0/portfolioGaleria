@@ -2,8 +2,9 @@
     -https://0rakul0.github.io/portfolioGaleria/
 
 # <DESCRIÇÃO>
-   ```text
-   Nesse repositório você irá encontrar um exemplo de como usar o jquery para construção de uma galeria usando uma cdn, além de como usar CSS grig para construção de um layout fluido.
+   ```html
+   <p> Nesse repositório você irá encontrar um exemplo de como usar o jquery para 
+   construção de uma galeria usando uma cdn, além de como usar CSS grig para construção de um layout fluido.</p>
 
    ``` 
 # < TECNOLOGIAS >

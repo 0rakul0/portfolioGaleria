@@ -1,5 +1,6 @@
 # < LINK > 
-    -https://0rakul0.github.io/portfolioGaleria/
+    
+    https://0rakul0.github.io/portfolioGaleria/
 
 # <DESCRIÇÃO>
 

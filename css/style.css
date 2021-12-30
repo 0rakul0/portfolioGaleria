@@ -7,37 +7,19 @@
 }
 header{ 
     background: #fff;
-    position: fixed;
-    top: 0;
-    height: 90px;
-    width: 100%;
+    padding: 20px 20px;
+    position: relative;
     z-index: 1;
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100px;
-    background: #000;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 30px auto;
 }
 .menu li{
     list-style: none;
-    background: #eee;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
@@ -56,15 +38,16 @@ header{
     background: #403020;
 }
 section{
+    position: relative;
     display: flex;
     padding: 20px;
-    margin: 80px 40px 0;
+    margin: 0 40px auto;
 }
 section .produtos{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 10px auto;
 }
 section .produtos img{

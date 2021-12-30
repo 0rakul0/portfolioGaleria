@@ -5,6 +5,9 @@
     header nav {
         justify-content: space-between;
     }
+    .logo{
+        z-index: 10;
+    }
     .toggle{
         position: relative;
         width: 30px;
@@ -40,11 +43,11 @@
         transition: 0.5s;
     }
     .toggle.active::before{
-        transform: translateY(0) rotate(45deg);
+        transform: translateY(-10px) rotate(45deg);
         box-shadow: none;
     }
     .toggle.active::after{
-        transform: translateY(0) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
     }
     .menu{
         display: none;

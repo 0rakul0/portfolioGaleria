@@ -12,6 +12,21 @@ header{
     height: 90px;
     width: 100%;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .menu{
     display: flex;

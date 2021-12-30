@@ -13,14 +13,14 @@ header{
     width: 100%;
     z-index: 1;
 }
-header nav ul{
+.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 30px auto;
 }
-header nav ul li{
+.menu li{
     list-style: none;
     background: #eee;
     padding: 10px 20px;
@@ -31,11 +31,11 @@ header nav ul li{
     text-align: center;
     transition: 0.5s;
 }
-header nav ul li:hover{
+.menu li:hover{
     color: #fff;
     background: #000;
 }
-header nav ul li.active{
+.menu li.active{
     text-decoration: none;
     color: #fff;
     background: #403020;
